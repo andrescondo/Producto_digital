@@ -95,6 +95,7 @@ nav li a:hover
 	text-align: center;
 }
 
+
 .main_button
 {
 	background-color: var(--green-color);
@@ -163,8 +164,8 @@ nav li a:hover
 
 .mentions-title
 {
-	
-	margin:0 auto;
+	align-items: center;
+	margin: 0 auto;
 	font-size: 24px;
 }
 
@@ -172,5 +173,38 @@ nav li a:hover
 {
 	display: flex;
 	justify-content: space-between;
-	margin: 0 10%;
+	margin: 0 20px;
+	padding: 0 10%;
 }
+
+.person
+{
+	margin: 0px;
+
+	border-radius:5px;
+	/*box-shadow: var(--box);*/
+	box-shadow: 0 0 3px rgba(0, 0, 0, .5);
+	width: 230px;
+}
+.person figure
+{
+	margin: 0;
+}
+
+.person-name h3
+{
+	margin: 0 2px;
+}
+
+.person-image img
+{
+	width: 230px;
+}
+
+.person-details p 
+{
+
+}
+
+
+
