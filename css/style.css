@@ -164,7 +164,8 @@ nav li a:hover
 
 .mentions-title
 {
-	align-items: center;
+	display: inline;
+	text-align: center;
 	margin: 0 auto;
 	font-size: 24px;
 }
@@ -172,18 +173,16 @@ nav li a:hover
 .people
 {
 	display: flex;
+
 	justify-content: space-between;
-	margin: 0 20px;
-	padding: 0 10%;
+	padding: 0 13%;
 }
 
 .person
 {
 	margin: 0px;
-
 	border-radius:5px;
-	/*box-shadow: var(--box);*/
-	box-shadow: 0 0 3px rgba(0, 0, 0, .5);
+	box-shadow: 0 0 3px rgba(0, 0, 0, .7);
 	width: 230px;
 }
 .person figure
@@ -191,9 +190,14 @@ nav li a:hover
 	margin: 0;
 }
 
-.person-name h3
+.person-detail h3 
 {
-	margin: 0 2px;
+	margin: 0 5px;
+}
+
+.person-detail p
+{
+	margin:5px 5px;
 }
 
 .person-image img
@@ -201,10 +205,22 @@ nav li a:hover
 	width: 230px;
 }
 
-.person-details p 
-{
 
+footer
+{
+	background-color: #313337;
+	display: flex;
+	justify-content: space-between;
+	height: 50px;
+	align-items: center;
+	padding: 0 20px;
+	
 }
 
-
-
+footer a
+{
+	color:#fff;
+	list-style: none;
+	text-decoration: none;
+	font-size: 12px;
+}
