@@ -66,11 +66,13 @@ nav li a:hover
 	text-align: center;
 }
 
+/*========================================================*/
 .products
 {
 	background-image: url("../image/curve.png");
-	max-height: 50px;
-/*	width: 500px;*/
+	height: 95px;
+	/*	width: 500px;*/
+	background-repeat:no-repeat;
 	background-size: cover;
 	background-position: center top;
 	padding: 20%;
@@ -83,7 +85,7 @@ nav li a:hover
 	margin-top:-240px;
 }
 
-.product .content
+.product, .content
 {
 	background-color: var(--white-color);
 	padding: 15px;
@@ -117,96 +119,71 @@ nav li a:hover
 /*========== CARACTERISTICAS ==========*/
 
 .features
-{
-	display: flex;
+{	
 	padding: 10%;
-	justify-content: space-between;	
-	align-items: center;
+	display: flex;
+	
 }
 
 .characteristic
 {
-	align-items: center;
-	justify-content: inherit;
-	max-width: 150px;
-
-}
-
-.image_features
-{
-	margin: 0;
 	text-align: center;
+	padding: 20px;
 }
 
-.characteristic h3
+.characteristic img
 {
-	text-align: center;
-	font-size: 16px;
+	max-height: 100px;
 }
 
-.characteristic p
+.text_char
 {
-	font-size: 12px;
+	text-align: justify;
 }
 
-.image_faetures img
+
+/*======= MENCIONES==========*/
+
+h2.mentions-title
 {
-	height: 50px;
-	align-items: center;
-
-}
-
-.mentions
-{
-	/*display: flex;*/
-
-}
-
-.mentions-title
-{
-	display: inline;
-	text-align: center;
-	margin: 0 auto;
-	font-size: 24px;
+	text-align: center;	
 }
 
 .people
 {
 	display: flex;
-
-	justify-content: space-between;
-	padding: 0 13%;
+	padding:5%;
 }
 
 .person
 {
-	margin: 0px;
-	border-radius:5px;
-	box-shadow: 0 0 3px rgba(0, 0, 0, .7);
-	width: 230px;
+	padding: var(--space)
 }
-.person figure
+
+.content_person
 {
-	margin: 0;
+	box-shadow: 0 0 2px 1px #e6e5e9;
 }
 
-.person-detail h3 
+.content_person img
 {
-	margin: 0 5px;
+	width:100%;
 }
-
-.person-detail p
+.person-detail 
 {
-	margin:5px 5px;
+	padding: var(--space)
 }
 
-.person-image img
+.content_person .person-detail
 {
-	width: 230px;
+	padding: var(--space);
 }
+/*================================================*/
 
 
-footer
+
+/*=============== FOOTER===============0*/
+.footer
 {
 	background-color: #313337;
 	display: flex;
@@ -217,10 +194,11 @@ footer
 	
 }
 
-footer a
+.footer a
 {
 	color:#fff;
 	list-style: none;
 	text-decoration: none;
 	font-size: 12px;
 }
+
