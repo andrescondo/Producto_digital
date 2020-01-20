@@ -179,20 +179,22 @@ h2.mentions-title
 	padding: var(--space);
 }
 
+/*=================================================*/
+
 .modulo-pago
 {
 	box-shadow: var(--box);
-	margin: 1px solid #000;
+	border-radius: 1px solid #000;
 	padding:var(--space);
+	background: var(--white-color);
 	max-width: 100%;
-	background: var(--white-color)
 }
 
 .modulo-pago-img
 {
 	max-width: 150px;
 	width: 100%;
-	margin: 0 auto;
+	margin: auto;
 	text-align: center;
 }
 
@@ -200,16 +202,17 @@ h2.mentions-title
 
 .modulo-pago form 
 {
-	width:100%;
+	max-width:100%;
 	font-size: var(--normal);
 	
 }
 
-.modulo-pago input
+.data
 {
 	padding:var(--space);
 	margin:var(--space) 0;
 	width:100%;
+	border: 1px solid var(--black-color);
 	border-radius: 2px;
 	box-sizing: border-box;
 }
